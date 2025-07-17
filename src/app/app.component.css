@@ -1,0 +1,8 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
