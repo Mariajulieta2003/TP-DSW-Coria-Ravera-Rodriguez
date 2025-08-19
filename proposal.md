@@ -10,8 +10,8 @@
 
 ### Repositorios
 
-- [frontend app]: ((https://github.com/Mariajulieta2003/Frontend.git))
-- [backend app]: (https://github.com/Mariajulieta2003/Backend.git)
+- [frontend app]: [https://github.com/Mariajulieta2003/Frontend.git]
+- [backend app]: [https://github.com/Mariajulieta2003/Backend.git]
   _Nota_: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
