@@ -12,7 +12,7 @@
 
 - Frontend: https://github.com/Mariajulieta2003/Frontend.git
 - Backend: https://github.com/Mariajulieta2003/Backend.git
-  _Nota_: si utiliza un monorepo indicar un solo link con fullstack app.
+
 
 ## Tema
 
@@ -53,6 +53,7 @@ _Nota_: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcion
 | Listados | 1. Listado de ConsultasVeterinarias de una Mascota, mostrando ID, fecha, observación y del Veterinario id, nombre, apellido y matricula => detalle muestra datos completos de la ConsultaVeterinaria y del Veterinario |
 | CUU/Epic | 1. --------------                                                                                                                                                                                                      |
 | Otros    | 3. CRUD Consulta {depende de} CRUD Veterinario y CRUD Mascota                                                                                                                                                          |
+
 
 
 
