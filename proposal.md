@@ -33,9 +33,9 @@ _Nota_: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistem
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario<br>2. CRUD Especie<br>3. CRUD Veterinario|
-|CRUD dependiente|1. CRUD SolicitudAdopción {depende de} CRUD Usuario y Mascota<br>2. CRUD Especie {depende de} CRUD Mascota<br>|
-|Listado<br>+<br>detalle| 1. Listado de mascotas filtrado por mascotas elegibles para un usuario => id, , edad, compatibleNiños, compatibleMascotas, vacunas, castrado, CRUD Mascota<br> 2. Listado de Patologías de una Mascota => observación, CRUD Patología<br>|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Mascota<br>3. CRUD Veterinario|
+|CRUD dependiente|1. CRUD SolicitudAdopción {depende de} CRUD Usuario y Mascota<br>2. CRUD Consulta Veterinaria {depende de} CRUD Mascota, CRUD Usuario , CRUD Veterinario,<br>|
+|Listado<br>+<br>detalle| 1. Listado de mascotas filtrado por mascotas elegibles para un usuario => id, , edad, compatibleNiños, compatibleMascotas, vacunas, castrado, CRUD Mascota<br> 2. Listado de Mascotas por filtro => observación, CRUD Patología<br>|
 |CUU/Epic|1. Subir una nueva mascota elegible para ser adoptada<br>2. Adoptar una mascota|
 
 Adicionales para Aprobación
@@ -53,6 +53,7 @@ _Nota_: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcion
 | Listados | 1. Listado de ConsultasVeterinarias de una Mascota, mostrando ID, fecha, observación y del Veterinario id, nombre, apellido y matricula => detalle muestra datos completos de la ConsultaVeterinaria y del Veterinario |
 | CUU/Epic | 1. --------------                                                                                                                                                                                                      |
 | Otros    | 3. CRUD Consulta {depende de} CRUD Veterinario y CRUD Mascota                                                                                                                                                          |
+
 
 
 
